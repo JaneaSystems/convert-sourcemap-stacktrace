@@ -1,0 +1,31 @@
+{
+  "name": "convert-sourcemap-stacktrace",
+  "version": "0.1.0",
+  "description": "Converts a stacktrace using a sourcemap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stacktrace",
+    "sourcemap"
+  ],
+  "author": "janeasystems",
+  "license": "MIT",
+  "bin": {
+    "convert-sourcemap-stacktrace": "index.js"
+  },
+  "engines": {
+    "node": "^12.14.1",
+    "yarn": "^1.21.1"
+  },
+  "dependencies": {
+    "source-map": "^0.7.3",
+    "stacktrace-parser": "^0.1.10",
+    "yargs": "^3.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaneaSystems/convert-sourcemap-stacktrace"
+  }
+}
